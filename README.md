@@ -1,9 +1,9 @@
-# Mautic API in Laravel 8.
+# Mautic API in Laravel 9.
 Free and Open Source Marketing Automation API
 
 ## Requirements
-* Laravel ^8.0
-* PHP ^7.3 or newer
+* Laravel ^9.0
+* PHP ^8.0.2 or newer
 * cURL support
 
 ## Mautic Setup
@@ -16,7 +16,7 @@ After saving the configuration, go to the API Credentials page (located in the S
 ## Installation
 First, you'll need to require the package with Composer:
 ```sh
-composer require costamateus/laravel-mautic-api
+composer require dinhsan/laravel-mautic-api
 ```
 Aftwards, run `composer update` from your command line.
 
