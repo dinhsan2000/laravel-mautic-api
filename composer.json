@@ -15,6 +15,16 @@
         "guzzlehttp/guzzle": "^7.5.0",
         "graham-campbell/manager": "^4.7.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Triibo\\Mautic\\MauticServiceProvider"
+            ],
+            "aliases": {
+                "Mautic": "Triibo\\Mautic\\Facades\\Mautic"
+            }
+        }
+    },
     "autoload": {
         "psr-4": {
             "Triibo\\Mautic\\": "src/"
